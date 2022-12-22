@@ -29,6 +29,7 @@ a { text-decoration: none; }
 
 .button { background-color: var(--burning-orange); width: 172px; height: 46px; border-radius: 10px; color: var(--light-color); font-size: 18px; line-height: 20px; font-weight: 700; -webkit-transition: all 0.4s; transition: all 0.4s; }
 .button__promo { margin-top: 170px; width: 252px; height: 72px; }
+.button__gift-item { position: absolute; bottom: 80px; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
 
 .button:hover { background-color: var(--light-color); border: 1px solid var(--burning-orange); color: var(--mine-shaft); }
 
@@ -72,5 +73,17 @@ a { text-decoration: none; }
 .advantages__descr { max-width: 440px; }
 .advantages__items { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .advantages__item { width: 332px; height: 169px; background-color: var(--light-color); text-align: center; border-radius: 20px; font-weight: 500; font-size: 24px; line-height: 30px; padding-top: 61px; }
+
+.gift-cards { min-height: 920px; padding: 78px 0 105px 0; }
+.gift-cards__inner { margin-top: 120px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.gift-cards__descr { display: block; margin: 0 auto; max-width: 850px; }
+.gift-cards__item { position: relative; padding: 75px 93px; width: 414px; height: 491px; border-radius: 10px; -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25); box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25); border: 1px solid var(--burning-orange); text-align: center; }
+.gift-cards__item-title { font-weight: 700; font-size: 24px; line-height: 30px; color: var(--cod-gray); margin-bottom: 30px; }
+.gift-cards__item-name { font-weight: 700; font-size: 40px; line-height: 50px; color: var(--cod-gray); margin-bottom: 30px; }
+.gift-cards__item-descr { font-weight: 500; font-size: 20px; line-height: 25px; }
+.gift-cards__item_hot { background-color: var(--burning-orange); color: var(--light-color); }
+.gift-cards__item_hot .gift-cards__item-title { color: var(--light-color); }
+.gift-cards__item_hot .gift-cards__item-name { color: var(--light-color); }
+.gift-cards__item_hot .button__gift-item { background-color: var(--light-color); color: var(--mine-shaft); }
 
 /*# sourceMappingURL=main.css.map */

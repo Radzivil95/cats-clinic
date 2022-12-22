@@ -1,0 +1,58 @@
+.gift-cards {
+    min-height: 920px;
+    padding: 78px 0 105px 0;
+    &__inner {
+        margin-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        max-width: 850px;
+    }
+    &__item {
+        position: relative;
+        padding: 75px 93px;
+        width: 414px;
+        height: 491px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+        border: 1px solid var(--burning-orange);
+        text-align: center;
+        &-title {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            color: var(--cod-gray);
+            margin-bottom: 30px;
+        }
+        &-name {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            color: var(--cod-gray);
+            margin-bottom: 30px;
+        }
+        &-descr {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25px;  
+        }
+        &_hot {
+            background-color: var(--burning-orange);
+            .gift-cards__item-title {
+                color: var(--light-color);
+            }
+            .gift-cards__item-name {
+                color: var(--light-color);
+            }
+            color: var(--light-color);
+            .button__gift-item {
+                background-color: var(--light-color);
+                color: var(--mine-shaft);
+            }
+        }
+    }
+}

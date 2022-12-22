@@ -13,6 +13,12 @@
         width: 252px;
         height: 72px;
     }
+    &__gift-item {
+        position: absolute;
+        bottom: 80px;
+        left: 50%;
+        transform: translate(-50%);
+    }
 }
 .button:hover {
     background-color: var(--light-color);
