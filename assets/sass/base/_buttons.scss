@@ -23,6 +23,11 @@
         display: block;
         margin: 0 auto;
     }
+    &__modal {
+        margin: 0 auto;
+        margin-top: 20px;
+        display: block;
+    }
 }
 .button:hover {
     background-color: var(--light-color);

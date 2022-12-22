@@ -31,6 +31,7 @@ a { text-decoration: none; }
 .button__promo { margin-top: 170px; width: 252px; height: 72px; }
 .button__gift-item { position: absolute; bottom: 80px; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
 .button__planning { display: block; margin: 0 auto; }
+.button__modal { margin: 0 auto; margin-top: 20px; display: block; }
 
 .button:hover { background-color: var(--light-color); border: 1px solid var(--burning-orange); color: var(--mine-shaft); }
 
@@ -90,5 +91,18 @@ a { text-decoration: none; }
 .footer__inner { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .footer__social { display: -webkit-box; display: -ms-flexbox; display: flex; gap: 10px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .footer__content { color: var(--light-color); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 10px; }
+
+.form { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 350px; height: 300px; }
+.form__input { padding: 0 20px; height: 50px; border-radius: 5px; background-color: var(--light-color); margin-bottom: 15px; border: none; font-weight: 400; font-size: 14px; color: var(--tundora-color); }
+
+.overlay { display: none; position: fixed; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 100; }
+
+.modal { padding: 38px; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); min-height: 400px; background-color: var(--frangipani); border-radius: 20px; }
+.modal__subtitle { text-align: center; margin-bottom: 15px; font-weight: 700; font-size: 24px; line-height: 30px; color: var(--burning-orange); }
+.modal__close { position: absolute; top: 0; right: -40px; font-size: 40px; line-height: 40px; color: var(--burning-orange); cursor: pointer; }
+.modal__descr { text-align: center; margin-bottom: 10px; font-weight: 700; font-size: 18px; line-height: 24px; }
+.modal_mini { min-height: 140px; }
+
+#appointment, #order, #thanks { display: none; }
 
 /*# sourceMappingURL=main.css.map */
