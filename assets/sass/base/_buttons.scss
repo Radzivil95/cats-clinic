@@ -19,6 +19,10 @@
         left: 50%;
         transform: translate(-50%);
     }
+    &__planning {
+        display: block;
+        margin: 0 auto;
+    }
 }
 .button:hover {
     background-color: var(--light-color);

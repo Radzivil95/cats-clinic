@@ -30,6 +30,7 @@ a { text-decoration: none; }
 .button { background-color: var(--burning-orange); width: 172px; height: 46px; border-radius: 10px; color: var(--light-color); font-size: 18px; line-height: 20px; font-weight: 700; -webkit-transition: all 0.4s; transition: all 0.4s; }
 .button__promo { margin-top: 170px; width: 252px; height: 72px; }
 .button__gift-item { position: absolute; bottom: 80px; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+.button__planning { display: block; margin: 0 auto; }
 
 .button:hover { background-color: var(--light-color); border: 1px solid var(--burning-orange); color: var(--mine-shaft); }
 
@@ -85,5 +86,8 @@ a { text-decoration: none; }
 .gift-cards__item_hot .gift-cards__item-title { color: var(--light-color); }
 .gift-cards__item_hot .gift-cards__item-name { color: var(--light-color); }
 .gift-cards__item_hot .button__gift-item { background-color: var(--light-color); color: var(--mine-shaft); }
+
+.planning { background-color: var(--frangipani); padding: 160px 0 122px 0; }
+.planning__inner { background-color: var(--light-color); padding: 15px 0 50px 0; }
 
 /*# sourceMappingURL=main.css.map */
