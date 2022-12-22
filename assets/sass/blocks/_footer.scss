@@ -1,0 +1,20 @@
+.footer {
+    padding: 60px 0px;
+    background-color: var(--burning-orange);
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__social {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    &__content {
+        color: var(--light-color);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -82,12 +82,13 @@ a { text-decoration: none; }
 .gift-cards__item-title { font-weight: 700; font-size: 24px; line-height: 30px; color: var(--cod-gray); margin-bottom: 30px; }
 .gift-cards__item-name { font-weight: 700; font-size: 40px; line-height: 50px; color: var(--cod-gray); margin-bottom: 30px; }
 .gift-cards__item-descr { font-weight: 500; font-size: 20px; line-height: 25px; }
-.gift-cards__item_hot { background-color: var(--burning-orange); color: var(--light-color); }
-.gift-cards__item_hot .gift-cards__item-title { color: var(--light-color); }
-.gift-cards__item_hot .gift-cards__item-name { color: var(--light-color); }
-.gift-cards__item_hot .button__gift-item { background-color: var(--light-color); color: var(--mine-shaft); }
 
 .planning { background-color: var(--frangipani); padding: 160px 0 122px 0; }
 .planning__inner { background-color: var(--light-color); padding: 15px 0 50px 0; }
+
+.footer { padding: 60px 0px; background-color: var(--burning-orange); }
+.footer__inner { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.footer__social { display: -webkit-box; display: -ms-flexbox; display: flex; gap: 10px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.footer__content { color: var(--light-color); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 10px; }
 
 /*# sourceMappingURL=main.css.map */
