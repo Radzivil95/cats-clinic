@@ -1,9 +1,10 @@
 @import "base/fonts";
 @import "base/variables";
-@import "base/settings";
+@import "base/base";
 @import "base/buttons";
 
 // blocks
 @import "blocks/header";
 @import "blocks/promo";
 @import "blocks/carousel";
+@import "blocks/services";

@@ -2,28 +2,6 @@
     background-color: var(--frangipani);
     min-height: 1025px;
     padding: 88px 0 183px 0;
-    &__call {
-        text-align: center;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 30px;
-        color: var(--burning-orange);
-    }
-    &__title {
-        margin-top: 32px;
-        text-align: center;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 60px;
-        color: var(--cod-gray);
-    }
-    &__descr {
-        margin-top: 60px;
-        text-align: center;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom: 70px;
-    }
     &__item {
         position: relative;
         padding: 40px;
@@ -65,3 +43,4 @@
         }
     }
 }
+

@@ -21,6 +21,12 @@ a { text-decoration: none; }
 
 .btn-reset { border: none; padding: 0; background: transparent; cursor: pointer; }
 
+.call { text-align: center; font-weight: 700; font-size: 24px; line-height: 30px; color: var(--burning-orange); }
+
+.title { margin-top: 32px; text-align: center; font-weight: 700; font-size: 48px; line-height: 60px; color: var(--cod-gray); }
+
+.description { margin-top: 60px; text-align: center; font-weight: 500; line-height: 20px; margin-bottom: 70px; }
+
 .button { background-color: var(--burning-orange); width: 172px; height: 46px; border-radius: 10px; color: var(--light-color); font-size: 18px; line-height: 20px; font-weight: 700; -webkit-transition: all 0.4s; transition: all 0.4s; }
 .button__promo { margin-top: 170px; width: 252px; height: 72px; }
 
@@ -45,9 +51,6 @@ a { text-decoration: none; }
 .promo__text { margin-top: 35px; font-weight: 400; font-size: 16px; line-height: 20px; color: var(--tundora-color); }
 
 .carousel { background-color: var(--frangipani); min-height: 1025px; padding: 88px 0 183px 0; }
-.carousel__call { text-align: center; font-weight: 700; font-size: 24px; line-height: 30px; color: var(--burning-orange); }
-.carousel__title { margin-top: 32px; text-align: center; font-weight: 700; font-size: 48px; line-height: 60px; color: var(--cod-gray); }
-.carousel__descr { margin-top: 60px; text-align: center; font-weight: 500; line-height: 20px; margin-bottom: 70px; }
 .carousel__item { position: relative; padding: 40px; width: 538px; height: 423px; background-color: var(--light-color); margin-right: 16px; }
 .carousel__item-review { margin-top: 50px; font-weight: 700; font-size: 24px; line-height: 30px; color: var(--cod-gray); }
 .carousel__item-stars { position: absolute; bottom: 40px; left: 40px; }
@@ -55,5 +58,10 @@ a { text-decoration: none; }
 .carousel__hero-name { font-weight: 700; font-size: 24px; line-height: 30px; color: var(--tundora-color); }
 .carousel__hero-work { font-weight: 700; font-size: 16px; line-height: 20px; }
 .carousel__hero-img { width: 80px; height: 80px; }
+
+.services { padding: 85px 0 185px 0; }
+.services__inner { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.services__item-title { margin-top: 30px; margin-bottom: 20px; font-weight: 700; font-size: 24px; line-height: 30px; color: var(--mine-shaft); }
+.services__item-descr { max-width: 260px; font-weight: 400; font-size: 20px; line-height: 32px; color: var(--tundora-color); }
 
 /*# sourceMappingURL=main.css.map */
