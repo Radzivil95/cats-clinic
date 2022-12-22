@@ -1,0 +1,67 @@
+.carousel {
+    background-color: var(--frangipani);
+    min-height: 1025px;
+    padding: 88px 0 183px 0;
+    &__call {
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: var(--burning-orange);
+    }
+    &__title {
+        margin-top: 32px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        color: var(--cod-gray);
+    }
+    &__descr {
+        margin-top: 60px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 70px;
+    }
+    &__item {
+        position: relative;
+        padding: 40px;
+        width: 538px;
+        height: 423px;
+        background-color: var(--light-color);
+        margin-right: 16px;
+        &-review {
+            margin-top: 50px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            color: var(--cod-gray);
+        }
+        &-stars {
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+        }
+    }
+    &__hero {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        &-name {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            color: var(--tundora-color);
+        }
+        &-work {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        &-img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+}
