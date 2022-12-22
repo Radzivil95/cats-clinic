@@ -1,0 +1,21 @@
+.button {
+    background-color: var(--burning-orange);
+    width: 172px;
+    height: 46px;
+    border-radius: 10px;
+    color: var(--light-color);
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    transition: all 0.4s;
+    &__promo {
+        margin-top: 170px;
+        width: 252px;
+        height: 72px;
+    }
+}
+.button:hover {
+    background-color: var(--light-color);
+    border: 1px solid var(--burning-orange);
+    color: var(--mine-shaft);
+}

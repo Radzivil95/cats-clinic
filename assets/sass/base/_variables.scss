@@ -1,0 +1,13 @@
+:root {
+    // base
+    --content-width: 1310px;
+    --container-offset: 10px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  
+    // colors
+    --light-color: #ffffff;
+    --burning-orange: #ff7539;
+    --tundora-color: #4d4d4d;
+    --mine-shaft: #3a3a3a;
+    --frangipani: #ffdfb9;
+}
