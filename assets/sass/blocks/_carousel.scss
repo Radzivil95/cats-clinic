@@ -5,7 +5,7 @@
     &__item {
         position: relative;
         padding: 40px;
-        width: 538px;
+        max-width: 538px;
         height: 423px;
         background-color: var(--light-color);
         margin-right: 16px;
@@ -44,3 +44,11 @@
     }
 }
 
+@media (max-width: 601px) {
+    .carousel__item {
+        width: 300px;
+    }
+    .carousel {
+        padding-bottom: 40px;
+    }
+}

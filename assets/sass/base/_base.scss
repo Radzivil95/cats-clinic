@@ -71,3 +71,10 @@ a {
     line-height: 20px;
     margin-bottom: 70px;
 }
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 38px;
+        line-height: 57px;
+    }
+}

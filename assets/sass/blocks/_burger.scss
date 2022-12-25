@@ -1,0 +1,20 @@
+.burger {
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    padding: 60px 0px 20px 0px;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    background-color: var(--light-color);
+    display: none;
+    z-index: 10000;
+    .header__nav-list {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    &_active {
+        display: block;
+    }
+}

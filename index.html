@@ -17,26 +17,32 @@
                 </a>
                 <nav class="header__nav">
                     <ul class="header__nav-list list-reset">
-                        <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
-                        <li class="header__nav-item"><a href="#" class="header__nav-link">Reviews</a></li>
-                        <li class="header__nav-item"><a href="#" class="header__nav-link">Services</a></li>
-                        <li class="header__nav-item"><a href="#" class="header__nav-link">Depositions</a></li>
-                        <li class="header__nav-item"><a href="#" class="header__nav-link">Help</a></li>
+                        <li class="header__nav-item"><a href="#promo" class="header__nav-link">Home</a></li>
+                        <li class="header__nav-item"><a href="#reveiw" class="header__nav-link">Reviews</a></li>
+                        <li class="header__nav-item"><a href="#service" class="header__nav-link">Services</a></li>
+                        <li class="header__nav-item"><a href="#advantages" class="header__nav-link">About</a></li>
+                        <li class="header__nav-item"><a href="#shop" class="header__nav-link">Shop</a></li>
                     </ul>
                 </nav>
                 <button class="btn-reset button button__header" data-modal="appointment">
                     Contact
                 </button>
            </div>
+           <div class="header__burger">
+                <a href="#" class="logo">
+                    <img src="./assets/images/icons/logo.svg" alt="logo" class="logo__img header__burger-logo">
+                </a>
+                <img src="./assets/images/icons/burger.svg" alt="burger" class="header__burger-img">
+           </div>
         </div>
     </header>
     <main class="main">
-        <section class="promo">
+        <section class="promo" id="promo">
             <div class="container">
                 <div class="promo__inner">
                     <div class="promo__content">
                         <div class="promo__substrate"></div>
-                        <h2 class="subheader">Animal therapy</h2>
+                        <h2 class="promo_subheader">Animal therapy</h2>
                         <h1 class="promo__title">Constant veterinary care for your pets.</h1>
                         <button class="btn-reset button button__promo" data-modal="appointment">
                             Contact
@@ -50,7 +56,7 @@
                 </div>
             </div>
         </section>
-        <section class="carousel">
+        <section class="carousel" id="reveiw">
             <p class="call">Join our satisfied customers</p>
             <h2 class="title">We are the best personal care service in the world.</h2>
             <p class="description">Lots of five star ratings and good reviews.</p>
@@ -109,7 +115,7 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="service">
             <div class="container">
                 <p class="call">Our possibilities</p>
                 <h2 class="title">Discover our services.</h2>
@@ -146,7 +152,7 @@
                 </div>
             </div>
         </section>
-        <section class="advantages">
+        <section class="advantages" id="advantages">
             <div class="container">
                 <div class="advantages__inner">
                     <div class="advantages__hero">
@@ -168,9 +174,9 @@
                 </div>
             </div>
         </section>
-        <section class="gift-cards">
+        <section class="gift-cards" id="shop">
             <div class="container">
-                <div class="title">Order gift cards</div>
+                <div class="title">Order gift cards.</div>
                 <p class="description gift-cards__descr">
                     Give the gift of self-care with a spa-quality massage, beauty or wellness treatment.
                     Time spent with you is time well spent. You choose the value, we deliver the experience.
@@ -248,6 +254,17 @@
             <div class="modal__subtitle">Thank you</div>
             <div class="modal__descr">We will contact you</div>
         </div>
+    </div>
+    <div class="burger">
+        <nav class="header__nav">
+            <ul class="header__nav-list list-reset">
+                <li class="header__nav-item"><a href="#promo" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="#reveiw" class="header__nav-link">Reviews</a></li>
+                <li class="header__nav-item"><a href="#service" class="header__nav-link">Services</a></li>
+                <li class="header__nav-item"><a href="#advantages" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="#shop" class="header__nav-link">Shop</a></li>
+            </ul>
+        </nav>
     </div>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

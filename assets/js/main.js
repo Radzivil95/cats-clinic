@@ -5,7 +5,7 @@ $(document).ready(function() {
         slidesToShow: 3,
         responsive: [
             {
-              breakpoint: 841,
+              breakpoint: 920,
               settings: {
                 slidesToShow: 2,
               }
@@ -34,4 +34,8 @@ $(document).ready(function() {
         $('.overlay, #order').fadeIn('slow');
       });
     });
+
+    $('.header__burger-img').on('click', function() {
+      $('.burger').toggleClass('burger_active');
+    })
 });

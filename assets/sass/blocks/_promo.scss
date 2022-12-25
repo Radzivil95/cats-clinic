@@ -1,6 +1,7 @@
 .promo {
-    padding: 105px 0 200px 0;
+    padding: 185px 0 200px 0;
     min-height: 940px;
+    z-index: 1;
     &__inner {
         position: relative;
         display: flex;
@@ -37,6 +38,7 @@
         &-img {
             max-width: 775px;
             max-height: 573px;
+            border-radius: 0px 0px 60px 60px;
         }
         &-sqr {
             position: absolute;
@@ -54,5 +56,88 @@
         font-size: 16px;
         line-height: 20px;
         color: var(--tundora-color);
+    }
+}
+
+@media (max-width: 1400px) {
+    .promo {
+        &__hero {
+            &-img {
+                max-width: 675px;
+                max-height: 473px;
+            }
+            &-sqr {
+                display: none;
+            }
+        }
+    }
+    .button__promo {
+        margin-top: 80px;
+    }
+}
+@media (max-width: 1200px) {
+    .promo {
+        &__hero {
+            &-img {
+                max-width: 575px;
+                max-height: 373px;
+            }
+        }
+    }
+    .button__promo {
+        margin-top: 70px;
+    }
+}
+@media (max-width: 992px) {
+    .promo {
+        padding-top: 120px;
+        &__hero {
+            &-img {
+                max-width: 475px;
+                max-height: 373px;
+            }
+        }
+        &__title {
+            font-size: 38px;
+            line-height: 57px;
+        }
+    }
+    .button__promo {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 850px) {
+    .promo {
+        min-height: 600px;
+    }
+    .promo__inner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .promo__text {
+        display: none;
+    }
+    .button__promo {
+        margin: 0 auto;
+        margin-top: 50px;
+        display: block;
+    }
+    .promo_subheader {
+        text-align: center;
+    }
+}
+@media (max-width: 520px) {
+    .promo__hero-img {
+        display: none;
+    }
+    .promo__title {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .promo__substrate {
+        display: none;   
     }
 }
